@@ -2,8 +2,10 @@
 
 Try using a `TreeMap` and a `HashMap` instead of `MyHashMap`.
         1. Are the resulting word frequencies any different?
-        2. Is the time performance any different? If so, how would you rank the three implementations (in increasing order of time complexity)?
+       
                 - There are no differences in word frequency.
+                
+        2. Is the time performance any different? If so, how would you rank the three implementations (in increasing order of time complexity)?
                 - There is a diffeence in performance. I would rank the implementations in increasing ordr of time as follows: HashMap, MyHashMap, and finally TreeMap.
                 
                 - My Hash Map:
