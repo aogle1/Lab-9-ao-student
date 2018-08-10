@@ -64,7 +64,7 @@ his=5529,
     - How are `%` and `Math.floorMod` different? Which works more reliably for computing a hash table index?
     
     
-  For the floorMod if the signs of the numbers you are trying to mod are the same then the result is the same a as the floor mod but if the signs are different then the result is different. The difference in values between floorMod and the % operator is due to the difference between floorDiv that returns the integer less than or equal to the quotient and the / operator that returns the integer closest to zero. The floorMod works more reliably when computing a hash table index.
+  For the floorMod if the signs of the numbers you are trying to mod are the same then the result is the same a as the floor mod but if the signs are different then the result is different. The difference in values between floorMod and the % operator is due to the difference between floorDiv that returns the integer less than or equal to the quotient and the / operator that returns the integer closest to zero. The floorMod works more reliably when computing a hash table index. Reference: https://www.geeksforgeeks.org/math-floormod-method-in-java/
         
         
     - What is the time complexity of `MyHashMap.size()`, and how could you make it much more efficient?
