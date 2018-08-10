@@ -69,7 +69,7 @@ his=5529,
         
     - What is the time complexity of `MyHashMap.size()`, and how could you make it much more efficient?
     
-   O(n), n is the size of the table
+   O(n), n is the size of the table. To make this more eficient you could have a size variable that increments for eac put ad decrements for each remove. To get the size you could the retun that variable. 
     
     - How does this implementation compare to one where you would directly use your linked `Node` class from the earlier assignment? Answer briefly in terms of ease of implementation, correctness, reliability, and performance.
     
